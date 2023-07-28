@@ -1,0 +1,26 @@
+{
+  "name": "arb-facilitator",
+  "version": "1.0.0",
+  "description": "A simple program to help convert translations to an arb file",
+  "main": "main.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "test": "npx mocha --require ts-node/register -w --parallel test/**/*.test.ts"
+  },
+  "author": "David Santos (D'Santos)",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "@types/natural": "^5.1.2",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "natural": "^6.5.0"
+  }
+}
