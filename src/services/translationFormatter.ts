@@ -1,6 +1,6 @@
 import { WordTokenizer } from 'natural';
 import Translation from '../models/Translation';
-import { ResponseOptions } from '../models/ResponseOptions';
+import { ResponseOptions } from '../models/enums/ResponseOptions';
 
 export default class TranslationFormatter {
   private tokenizer: WordTokenizer;
